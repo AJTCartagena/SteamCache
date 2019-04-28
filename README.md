@@ -4,7 +4,7 @@ _En este caso usaré Ubuntu 16.04 Server_
 
 ## Comenzando 🚀
 
-_Para poder comenzar lo que tendreis que hacer es descargaros [Ubuntu Server 64-bits](http://releases.ubuntu.com/16.04/ubuntu-16.04.6-server-amd64.iso), o U[Ubuntu Server 32-bits](http://releases.ubuntu.com/16.04/ubuntu-16.04.6-server-i386.iso) ._
+_Para poder comenzar lo que tendreis que hacer es descargaros [Ubuntu Server 64-bits](http://releases.ubuntu.com/16.04/ubuntu-16.04.6-server-amd64.iso), o [Ubuntu Server 32-bits](http://releases.ubuntu.com/16.04/ubuntu-16.04.6-server-i386.iso). En este tutorial voy a seguir las instrucciones que podemos encontrar en [LGSM](https://linuxgsm.com/lgsm/csgoserver/)_
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
