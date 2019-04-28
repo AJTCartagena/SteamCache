@@ -59,7 +59,8 @@ _Para saber si tu servidor se está ejecutando correctamente o te da algún fall
 ```
 ./csgoserver debug
 ```
-_Ahí te dirá que es lo que está fallando. Si tienes algún otro problema, no dudes en comentarlo_
+_Ahí te dirá que es lo que está fallando. Si tienes algún otro problema, no dudes en comentarlo._
+
 
 ## Gestionar tu servidor ✔️
 
