@@ -11,9 +11,7 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
-
-_En mi caso he montado 4 servidores de CS:GO para la Teleco LAN Party usando Proxmox, a cada servidor de CS:GO le he dedicado:_
+_En mi caso he montado 4 servidores de CS:GO para la Teleco LAN Party usando Proxmox, usando Ubuntu Server 64-bits, a cada servidor de CS:GO le he dedicado:_
 
 * 2 Cores
 * 2 GB de RAM
@@ -21,18 +19,24 @@ _En mi caso he montado 4 servidores de CS:GO para la Teleco LAN Party usando Pro
 
 ### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+_A continuación vamos a ver los pasos que tenemos que seguir para realizar una correcta instalación del servidor._
 
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
+_Primer paso: Instalar los programas necesarios para iniciar el servidor_
 
 ```
-hasta finalizar
+sudo dpkg --add-architecture i386; sudo apt update; sudo apt install mailutils postfix curl wget file bzip2 gzip unzip bsdmainutils python util-linux ca-certificates binutils bc jq tmux lib32gcc1 libstdc++6 libstdc++6:i386
+```
+
+_Segundo paso: Crearemos un usuario para la gestión del servidor, ya que no podemos iniciarlo con "sudo"_
+
+```
+adduser csgoserver
+```
+
+_Tercer paso: Nos loguearemos con el usuario que acabamos de crear_
+
+```
+su - csgoserver
 ```
 
 _Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
