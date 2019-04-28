@@ -10,7 +10,7 @@ _Para poder comenzar lo que tendreis que hacer es descargaros [Ubuntu Server 64-
 
 _En mi caso he montado 4 servidores de CS:GO para la Teleco LAN Party usando Proxmox, usando Ubuntu Server 64-bits, a cada servidor de CS:GO le he dedicado:_
 
-* 2 Cores
+* 2 Cores.
 * 2 GB de RAM
 * 40 GB de memoria (para poder realizar al menos una copia de seguridad de cada servidor)
 
