@@ -1,10 +1,12 @@
-# Título del Proyecto
+# Cómo instalar servidor de CS:GO en Linux
 
-_Acá va un párrafo que describa lo que es el proyecto_
+_En este caso usaré Ubuntu 16.04_
 
 ## Comenzando 🚀
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+
+_[Dropwizard](http://www.dropwizard.io/1.0.2/docs/)_
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
