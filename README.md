@@ -18,31 +18,31 @@ _En mi caso he montado 4 servidores de CS:GO para la Teleco LAN Party usando Pro
 
 _A continuación vamos a ver los pasos que tenemos que seguir para realizar una correcta instalación del servidor._
 
-_Primer paso: Instalar los programas necesarios para iniciar el servidor_
+_**Primer paso:** Instalar los programas necesarios para iniciar el servidor_
 
 ```
 sudo dpkg --add-architecture i386; sudo apt update; sudo apt install mailutils postfix curl wget file bzip2 gzip unzip bsdmainutils python util-linux ca-certificates binutils bc jq tmux lib32gcc1 libstdc++6 libstdc++6:i386
 ```
 
-_Segundo paso: Crearemos un usuario para la gestión del servidor, ya que no podemos iniciarlo con "sudo"_
+_**Segundo paso:** Crearemos un usuario para la gestión del servidor, ya que no podemos iniciarlo con "sudo"_
 
 ```
 adduser csgoserver
 ```
 
-_Tercer paso: Nos loguearemos con el usuario que acabamos de crear_
+_**Tercer paso:** Nos loguearemos con el usuario que acabamos de crear_
 
 ```
 su - csgoserver
 ```
 
-_Cuarto paso: Descarga el instalador_
+_**Cuarto paso:** Descarga el instalador_
 
 ```
 wget -O linuxgsm.sh https://linuxgsm.sh && chmod +x linuxgsm.sh && bash linuxgsm.sh csgoserver
 ```
 
-_Quinto paso: Ejecuta el instalador, recuerda que NO puedes ejecutarlo como "sudo" y este se encuentra en la raiz del usuario "csgoserver"_
+_**Quinto paso:** Ejecuta el instalador, recuerda que NO puedes ejecutarlo como "sudo" y este se encuentra en la raiz del usuario "csgoserver"_
 
 ```
 ./csgoserver install
