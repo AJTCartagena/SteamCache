@@ -39,6 +39,18 @@ _Tercer paso: Nos loguearemos con el usuario que acabamos de crear_
 su - csgoserver
 ```
 
+_Cuarto paso: Descarga el instalador_
+
+```
+wget -O linuxgsm.sh https://linuxgsm.sh && chmod +x linuxgsm.sh && bash linuxgsm.sh csgoserver
+```
+
+_Quinto paso: Ejecuta el instalador, recuerda que NO puedes ejecutarlo como "sudo" y este se encuentra en la raiz del usuario "csgoserver"_
+
+```
+./csgoserver install
+```
+
 _Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
 
 ## Ejecutando las pruebas ⚙️
