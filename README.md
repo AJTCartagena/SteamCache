@@ -1,4 +1,4 @@
-# Cómo instalar servidor de CS:GO en Linux
+# Cómo instalar servidor de CS:GO en Linux (Ubuntu 16.04)
 
 _En este caso usaré Ubuntu 16.04 Server_
 
@@ -87,7 +87,7 @@ _Ahí podrás ver la contraseña y la RCON de tu servidor (si la has puesto), lo
 
 ## Construido con 🛠️
 
-* [Ununtu](http://releases.ubuntu.com/16.04/)
+* [Ubuntu](http://releases.ubuntu.com/16.04/)
 * [LGSM](https://linuxgsm.com/lgsm/csgoserver/)
 
 ## Wiki 📖
