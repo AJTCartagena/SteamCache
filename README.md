@@ -104,8 +104,5 @@ Puedes encontrar mucho más de cómo configurar el servidor en nuestra [Wiki](ht
 * Da las gracias públicamente 🤓.
 * etc.
 
-
-
 ---
 ⌨️ con ❤️ por [aruznieto](https://github.com/aruznieto) 😊
-
