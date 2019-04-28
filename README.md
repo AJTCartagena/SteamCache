@@ -48,11 +48,11 @@ _Quinto paso: Ejecuta el instalador, recuerda que NO puedes ejecutarlo como "sud
 ./csgoserver install
 ```
 
-_Una vez acabado este proceso, tendrás que añadir un [TOKEN de STEAM](https://steamcommunity.com/dev/managegameservers)_
+_Una vez acabado este proceso, tendrás que añadir un [Steam Game Server Login Token (GSLT)](https://steamcommunity.com/dev/managegameservers)_
 
 ![](imagenes/gslt.gif)
 
-_Si no sabes dónde añadir el TOKEN de Steam haz [click aquí](https://github.com/aruznieto/CSGO_Server/wiki)_
+_Si no sabes dónde añadir el GSLT haz [click aquí](https://github.com/aruznieto/CSGO_Server/wiki)_
 
 ## Ejecutando las pruebas ⚙️
 _Para saber si tu servidor se está ejecutando correctamente o te da algún fallo que no sabes solucionar puedes poner lo siguiente._
