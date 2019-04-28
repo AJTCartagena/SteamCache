@@ -6,7 +6,7 @@ _En este caso usaré Ubuntu 16.04 Server_
 
 _Para poder comenzar lo que tendreis que hacer es descargaros [Ubuntu Server 64-bits](http://releases.ubuntu.com/16.04/ubuntu-16.04.6-server-amd64.iso), o [Ubuntu Server 32-bits](http://releases.ubuntu.com/16.04/ubuntu-16.04.6-server-i386.iso). En este tutorial voy a seguir las instrucciones que podemos encontrar en [LGSM](https://linuxgsm.com/lgsm/csgoserver/)._
 
-### Pre-requisitos 📋
+## Pre-requisitos 📋
 
 _En mi caso he montado 4 servidores de CS:GO para la Teleco LAN Party usando Proxmox, usando Ubuntu Server 64-bits, a cada servidor de CS:GO le he dedicado:_
 
@@ -14,7 +14,7 @@ _En mi caso he montado 4 servidores de CS:GO para la Teleco LAN Party usando Pro
 * 2 GB de RAM
 * 40 GB de memoria (para poder realizar al menos una copia de seguridad de cada servidor)
 
-### Instalación 🔧
+## Instalación 🔧
 
 _A continuación vamos a ver los pasos que tenemos que seguir para realizar una correcta instalación del servidor._
 
