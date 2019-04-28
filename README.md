@@ -1,12 +1,10 @@
 # Cómo instalar servidor de CS:GO en Linux
 
-_En este caso usaré Ubuntu 16.04_
+_En este caso usaré Ubuntu 16.04 Server_
 
 ## Comenzando 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
-
-_[Dropwizard](http://www.dropwizard.io/1.0.2/docs/)_
+_Para poder comenzar lo que tendreis que hacer es descargaros [Ubuntu Server 64-bits](http://releases.ubuntu.com/16.04/ubuntu-16.04.6-server-amd64.iso), o U[Ubuntu Server 32-bits](http://releases.ubuntu.com/16.04/ubuntu-16.04.6-server-i386.iso) ._
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
