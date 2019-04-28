@@ -61,6 +61,29 @@ _Para saber si tu servidor se está ejecutando correctamente o te da algún fall
 ```
 _Ahí te dirá que es lo que está fallando. Si tienes algún otro problema, no dudes en comentarlo_
 
+## Gestionar tu servidor ✔️
+
+_Para INICIAR tu servidor simplemente tendrás que poner:_
+```
+./csgoserver start
+```
+
+_Para PARAR tu servidor simplemente tendrás que poner:_
+```
+./csgoserver stop
+```
+
+_Para REINICIAR tu servidor simplemente tendrás que poner:_
+```
+./csgoserver restart
+```
+
+_Para ver si tu servidor se está ejecutando pon:_
+```
+./csgoserver details
+```
+_Ahí podrás ver la contraseña y la RCON de tu servidor (si la has puesto), los puertos y la IP que usa, y mucha más información
+
 ## Construido con 🛠️
 
 * [Ununtu](http://releases.ubuntu.com/16.04/)
@@ -68,7 +91,7 @@ _Ahí te dirá que es lo que está fallando. Si tienes algún otro problema, no 
 
 ## Wiki 📖
 
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
+Puedes encontrar mucho más de cómo configurar el servidor en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
 
 ## Autores ✒️
 
