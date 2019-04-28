@@ -13,13 +13,10 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 _Que cosas necesitas para instalar el software y como instalarlas_
 
-```
 En mi caso he montado 4 servidores de CS:GO para la Teleco LAN Party usando Proxmox, a cada servidor de CS:GO le he dedicado:
 *2 Cores
 *2 GB de RAM
 *40 GB de memoria (para poder realizar al menos una copia de seguridad de cada servidor)
-
-```
 
 ### Instalación 🔧
 
