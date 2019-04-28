@@ -51,6 +51,12 @@ _Quinto paso: Ejecuta el instalador, recuerda que NO puedes ejecutarlo como "sud
 ./csgoserver install
 ```
 
+_Una vez acabado este proceso, tendrás que añadir un [TOKEN de STEAM](https://steamcommunity.com/dev/managegameservers)_
+
+```
+./csgoserver install
+```
+
 _Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
 
 ## Ejecutando las pruebas ⚙️
