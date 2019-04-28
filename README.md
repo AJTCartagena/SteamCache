@@ -52,7 +52,7 @@ _Una vez acabado este proceso, tendrás que añadir un [TOKEN de STEAM](https://
 
 ![](imagenes/gslt.gif)
 
-_Si no sabes dónde añadir el TOKEN de Steam haz [click aquí](https://github.com/aruznieto/CSGO_Server/wiki)_
+_Si no sabes dónde añadir el TOKEN de Steam haz [click aquí](https://github.com/aruznieto/CSGO_Server/wiki/%C2%BFC%C3%B3mo-a%C3%B1ado-o-cambio-el-GSLT%3F)_
 
 ## Ejecutando las pruebas ⚙️
 _Para saber si tu servidor se está ejecutando correctamente o te da algún fallo que no sabes solucionar puedes poner lo siguiente._
@@ -91,7 +91,7 @@ _Ahí podrás ver la contraseña y la RCON de tu servidor (si la has puesto), lo
 
 ## Wiki 📖
 
-Puedes encontrar mucho más de cómo configurar el servidor en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
+Puedes encontrar mucho más de cómo configurar el servidor en nuestra [Wiki](https://github.com/aruznieto/CSGO_Server/wiki)
 
 ## Autores ✒️
 
