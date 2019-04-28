@@ -4,7 +4,7 @@ _En este caso usaré Ubuntu 16.04 Server_
 
 ## Comenzando 🚀
 
-_Para poder comenzar lo que tendreis que hacer es descargaros [Ubuntu Server 64-bits](http://releases.ubuntu.com/16.04/ubuntu-16.04.6-server-amd64.iso), o [Ubuntu Server 32-bits](http://releases.ubuntu.com/16.04/ubuntu-16.04.6-server-i386.iso). En este tutorial voy a seguir las instrucciones que podemos encontrar en [LGSM](https://linuxgsm.com/lgsm/csgoserver/)_
+_Para poder comenzar lo que tendreis que hacer es descargaros [Ubuntu Server 64-bits](http://releases.ubuntu.com/16.04/ubuntu-16.04.6-server-amd64.iso), o [Ubuntu Server 32-bits](http://releases.ubuntu.com/16.04/ubuntu-16.04.6-server-i386.iso). En este tutorial voy a seguir las instrucciones que podemos encontrar en [LGSM](https://linuxgsm.com/lgsm/csgoserver/)._
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
@@ -14,7 +14,11 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 _Que cosas necesitas para instalar el software y como instalarlas_
 
 ```
-Da un ejemplo
+En mi caso he montado 4 servidores de CS:GO para la Teleco LAN Party usando Proxmox, a cada servidor de CS:GO le he dedicado:
+*2 Cores
+*2 GB de RAM
+*40 GB de memoria (para poder realizar al menos una copia de seguridad de cada servidor)
+
 ```
 
 ### Instalación 🔧
