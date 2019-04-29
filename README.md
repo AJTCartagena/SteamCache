@@ -87,7 +87,7 @@ _Ahí podrás ver la contraseña y la RCON de tu servidor (si la has puesto), lo
 
 ## Construido con 🛠️
 
-* [Ubuntu](http://releases.ubuntu.com/16.04/)
+* [Ubuntu](https://www.ubuntu.com/download/server/thank-you?version=18.04.2&architecture=amd64)
 * [LGSM](https://linuxgsm.com/lgsm/csgoserver/)
 
 ## Wiki 📖
