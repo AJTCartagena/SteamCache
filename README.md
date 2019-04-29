@@ -1,14 +1,14 @@
-# Cómo instalar servidor de CS:GO en Linux (Ubuntu 16.04)
+# Cómo instalar servidor de CS:GO en Linux (Ubuntu 18.04)
 
-_En este caso usaré Ubuntu 16.04 Server_
+_En este caso usaré Ubuntu 18.04 Server_
 
 ## Comenzando 🚀
 
-_Para poder comenzar lo que tendreis que hacer es descargaros [Ubuntu Server 64-bits](http://releases.ubuntu.com/16.04/ubuntu-16.04.6-server-amd64.iso), o [Ubuntu Server 32-bits](http://releases.ubuntu.com/16.04/ubuntu-16.04.6-server-i386.iso). En este tutorial voy a seguir las instrucciones que podemos encontrar en [LGSM](https://linuxgsm.com/lgsm/csgoserver/)._
+_Para poder comenzar lo que tendreis que hacer es descargaros [Ubuntu Server](https://www.ubuntu.com/download/server/thank-you?version=18.04.2&architecture=amd64). En este tutorial voy a seguir las instrucciones que podemos encontrar en [LGSM](https://linuxgsm.com/lgsm/csgoserver/)._
 
 ## Pre-requisitos 📋
 
-_En mi caso he montado 4 servidores de CS:GO para la Teleco LAN Party usando Proxmox, con Ubuntu Server 64-bits, a cada servidor de CS:GO le he dedicado:_
+_En mi caso he montado 4 servidores de CS:GO para la Teleco LAN Party usando Proxmox, con Ubuntu Server, a cada servidor de CS:GO le he dedicado:_
 
 * 2 Cores
 * 2 GB de RAM
