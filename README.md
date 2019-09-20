@@ -97,6 +97,7 @@ Puedes encontrar mucho más de cómo configurar el servidor en nuestra [Wiki](ht
 ## Autores ✒️
 
 * **Andrés Ruz Nieto** - *Documentación* - [aruznieto](https://github.com/aruznieto) 
+* **Rafael García Tristante** - *Documentación* - [TheMrRafus](https://github.com/TheMrRafus) 
 
 ## Expresiones de Gratitud 🎁
 
@@ -106,4 +107,4 @@ Puedes encontrar mucho más de cómo configurar el servidor en nuestra [Wiki](ht
 * etc.
 
 ---
-⌨️ con ❤️ por [aruznieto](https://github.com/aruznieto) 😊
+⌨️ con ❤️ por [aruznieto](https://github.com/aruznieto) y [TheMrRafus](https://github.com/TheMrRafus) 😊
