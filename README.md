@@ -1,24 +1,35 @@
-# Cómo instalar servidor de CS:GO en Linux (Ubuntu 18.04)
+# Cómo instalar SteamCache en Linux (Fedora Server 29)
 
 _En este caso usaré Ubuntu 18.04 Server_
 
 ## Comenzando 🚀
 
-_Para poder comenzar lo que tendreis que hacer es descargaros [Ubuntu Server](https://www.ubuntu.com/download/server/thank-you?version=18.04.2&architecture=amd64). En este tutorial voy a seguir las instrucciones que podemos encontrar en [LGSM](https://linuxgsm.com/lgsm/csgoserver/)._
+_Para poder comenzar lo que tendreis que hacer es descargaros [Fedora Server 30](https://download.fedoraproject.org/pub/fedora/linux/releases/30/Server/x86_64/iso/Fedora-Server-dvd-x86_64-30-1.2.iso), y [Rufus](https://rufus.ie/es_ES.html) para montar un USB para instalar Fedora en el servidor._
 
 ## Pre-requisitos 📋
 
-_En mi caso he montado 4 servidores de CS:GO para la Teleco LAN Party usando Proxmox, con Ubuntu Server, a cada servidor de CS:GO le he dedicado:_
+_Nuestro SteamCache tiene los siguientes componentes:_
 
-* 2 Cores
-* 2 GB de RAM
-* 40 GB de memoria (para poder realizar al menos una copia de seguridad de cada servidor)
+* Xeon E54030
+* 8 GB de RAM
+* 500 GB HDD
+* 3 TB HDD, exclusivo para almacenar los juegos.
 
 ## Instalación 🔧
 
-_A continuación vamos a ver los pasos que tenemos que seguir para realizar una correcta instalación del servidor._
+_A continuación vamos a ver los pasos que tenemos que seguir para realizar una correcta instalación._
 
-_**Primer paso:** Instalar los programas necesarios para iniciar el servidor_
+_**Primer paso:** Instalar Fedora en el servidor siguiendo el asistente, antes de ello tenemos que montar la ISO de Fedora en el USB a través de Rufus_
+
+1. Pinchamos el USB en el PC y lo abrimos.
+2. Install Fedora 30
+3. Seleccionamos idioma y le damos a continuar
+4. Elegimos el destino de instalación, dentro seleccionamos el disco y le damos a siguiente.
+5. Pulsamos sobre "Eliminar todo" y reclamar espacio.
+6. Y pulsamos sobre empezar instalación.
+7. Ponemos el nombre del equipo, en nuestro caso, steamcache y le damos a comenzar.
+8. Completamos los datos que nos piden. Y esperamos a que la instalación finalice.
+
 
 ```
 sudo dpkg --add-architecture i386; sudo apt update; sudo apt install mailutils postfix curl wget file bzip2 gzip unzip bsdmainutils python util-linux ca-certificates binutils bc jq tmux lib32gcc1 libstdc++6 libstdc++6:i386
