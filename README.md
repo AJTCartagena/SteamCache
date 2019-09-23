@@ -79,51 +79,47 @@ _**Sexto paso:** Instalamos COCKPIT. Una vez instalado volvemos a reiniciar el s
 sudo dnf install cockpit-docker
 ```
 
-_Una vez acabado este proceso, tendrás que añadir un [Steam Game Server Login Token (GSLT)](https://steamcommunity.com/dev/managegameservers)_
+_**Séptimo paso:** Abrimos nuestro navegador y ponemos la IP del servidor seguido del puerto 9090._
 
-![](imagenes/gslt.gif)
+_**Octavo paso:** Vamos a la pestaña "Almacenamiento", hacemos click sobre "Crear particion" y ponemos los siguientes datos._
 
-_Si no sabes dónde añadir el GSLT haz [click aquí.](https://github.com/aruznieto/CSGO_Server/wiki/%C2%BFC%C3%B3mo-a%C3%B1ado-o-cambio-el-GSLT%3F)_
+![](imagenes/montaje.png)
 
-## Ejecutando las pruebas ⚙️
-_Para saber si tu servidor se está ejecutando correctamente o te da algún fallo que no sabes solucionar puedes poner lo siguiente._
+Despues de montarlo tecleamos los siguientes códigos
+
 ```
-./csgoserver debug
-```
-_Ahí te dirá que es lo que está fallando. Si tienes algún otro problema, no dudes en comentarlo._
-
-
-## Gestionar tu servidor ✔️
-
-_Para INICIAR tu servidor simplemente tendrás que poner:_
-```
-./csgoserver start
+cd /media/disco3tb
+sudo mkdir -p data/cache
+sudo chown sc:sc data/cache
+sudo mkdir -p data/logs
+sudo chown sc:sc data/logs
 ```
 
-_Para PARAR tu servidor simplemente tendrás que poner:_
-```
-./csgoserver stop
-```
+_**Noveno paso:** Vamos a la pestaña "Docker Containers", hacemos click sobre "Obtener nueva imagen", buscamos "lancachenet/monolithic" y la descargamos._
 
-_Para REINICIAR tu servidor simplemente tendrás que poner:_
-```
-./csgoserver restart
-```
+![](imagenes/lancachenet.gif)
 
-_Para ver si tu servidor se está ejecutando pon:_
-```
-./csgoserver details
-```
-_Ahí podrás ver la contraseña y la RCON de tu servidor (si la has puesto), los puertos y la IP que usa, y mucha más información
+_**Décimo paso:** Vamos a la pestaña "Docker Containers", hacemos click sobre "Obtener nueva imagen", buscamos "lancachenet/sniproxy y la descargamos._
 
-## Construido con 🛠️
+![](imagenes/sniproxy.gif)
 
-* [Ubuntu](https://www.ubuntu.com/download/server/thank-you?version=18.04.2&architecture=amd64)
-* [LGSM](https://linuxgsm.com/lgsm/csgoserver/)
+_**Undécimo paso:** Vamos a la pestaña "Docker Containers", y hacemos click en el boton de start del contenedor "lancachenet/monolithic"_
 
-## Wiki 📖
+![](imagenes/crearcontenedor.gif)
 
-Puedes encontrar mucho más de cómo configurar el servidor en nuestra [Wiki](https://github.com/aruznieto/CSGO_Server/wiki)
+_Posteriormente pondremos las siguientes opciones. En UPSTREAM_DNS pondremos la IP del servidor DNS. En la normativa de reinicio pondremos "A MENOS QUE SEA DETENIDO" nunca "SIEMPRE", si no, no podremos apagar el contenedor. Y pulsamos en ejecutar_
+
+![](imagenes/opcionescontenedor.gif)
+
+_**Duodécimo paso:** Vamos a la pestaña "Docker Containers", y hacemos click en el boton de start del contenedor "lancachenet/sniproxy"_
+
+![](imagenes/snicontenedor.gif)
+
+_Posteriormente pondremos las siguientes opciones. En UPSTREAM_DNS pondremos la IP del servidor DNS. En la normativa de reinicio pondremos "A MENOS QUE SEA DETENIDO" nunca "SIEMPRE", si no, no podremos apagar el contenedor. Y pulsamos en ejecutar_
+
+![](imagenes/sniopciones.gif)
+
+**Las peticiones a realizar al servidor de STEAM se deberán apuntar hacia este servidor.**
 
 ## Autores ✒️
 
