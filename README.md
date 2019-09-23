@@ -31,32 +31,52 @@ _**Primer paso:** Instalar Fedora en el servidor siguiendo el asistente, antes d
 8. Completamos los datos que nos piden. Y esperamos a que la instalación finalice.
 
 
-```
-sudo dpkg --add-architecture i386; sudo apt update; sudo apt install mailutils postfix curl wget file bzip2 gzip unzip bsdmainutils python util-linux ca-certificates binutils bc jq tmux lib32gcc1 libstdc++6 libstdc++6:i386
-```
-
-_**Segundo paso:** Crearemos un usuario para la gestión del servidor, ya que no podemos iniciarlo con "sudo"_
+_**Segundo paso:** Desinstalamos versiones anteriores de DOCKER_
 
 ```
-adduser csgoserver
+sudo dnf remove docker \
+                docker-client \
+                docker-client-latest \
+                docker-common \
+                docker-latest \
+                docker-latest-logrotate \
+                docker-logrotate \
+                docker-selinux \
+                docker-engine-selinux \
+                docker-engine
 ```
 
-_**Tercer paso:** Nos loguearemos con el usuario que acabamos de crear_
+_**Tercer paso:** Instalamos DOCKER_
 
 ```
-su - csgoserver
+sudo dnf -y install dnf-plugins-core
+
+sudo dnf config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
+
+sudo dnf install docker-ce docker-ce-cli containerd.io
+
+sudo usermod -aG docker sc
 ```
 
-_**Cuarto paso:** Descarga el instalador_
+_**Cuarto paso:** Finalizamos la instalación_
 
 ```
-wget -O linuxgsm.sh https://linuxgsm.sh && chmod +x linuxgsm.sh && bash linuxgsm.sh csgoserver
+sudo usermod -aG docker sc
+sudo systemctl enable docker
+```
+Donde sc es el usuario con el que queremos ejecutar docker
+
+
+_**Quinto paso:** Reiniciamos el servidor y hacemos la prueba_
+
+```
+docker run hello-world
 ```
 
-_**Quinto paso:** Ejecuta el instalador, recuerda que NO puedes ejecutarlo como "sudo" y este se encuentra en la raiz del usuario "csgoserver"_
+_**Sexto paso:** Instalamos COCKPIT. Una vez instalado volvemos a reiniciar el servidor_
 
 ```
-./csgoserver install
+sudo dnf install cockpit-docker
 ```
 
 _Una vez acabado este proceso, tendrás que añadir un [Steam Game Server Login Token (GSLT)](https://steamcommunity.com/dev/managegameservers)_
