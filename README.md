@@ -62,6 +62,7 @@ _**Cuarto paso:** Finalizamos la instalación_
 
 ```
 sudo usermod -aG docker sc
+
 sudo systemctl enable docker
 ```
 Donde sc es el usuario con el que queremos ejecutar docker
