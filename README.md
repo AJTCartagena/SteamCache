@@ -1,6 +1,6 @@
-# Cómo instalar SteamCache en Linux (Fedora Server 29)
+# Cómo instalar SteamCache en Linux (Fedora Server 30)
 
-_En este caso usaré Ubuntu 18.04 Server_
+_En este caso usaré Fedora Server 30_
 
 ## Comenzando 🚀
 
@@ -10,7 +10,7 @@ _Para poder comenzar lo que tendreis que hacer es descargaros [Fedora Server 30]
 
 _Nuestro SteamCache tiene los siguientes componentes:_
 
-* Xeon E54030
+* Xeon E5430
 * 8 GB de RAM
 * 500 GB HDD
 * 3 TB HDD, exclusivo para almacenar los juegos.
